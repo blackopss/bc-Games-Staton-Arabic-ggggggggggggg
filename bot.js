@@ -5,7 +5,7 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     console.log(`in ${client.guilds.size} servers `)
     console.log(`[Users] ${client.users.size}`)
-	client.user.setGame(`g!bc |by Games Staton Arabic`)
+ client.user.setGame(` g!bc |by Games Staton Arabic`)
     client.user.setStatus("dnd")
 });
  client.on('message', message => {
